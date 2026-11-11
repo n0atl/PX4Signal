@@ -1,0 +1,6 @@
+LIBRARY PX4Signal.tvtp
+EXPORTS
+	TVTGetVersion
+	TVTGetPluginInfo
+	TVTInitialize
+	TVTFinalize
