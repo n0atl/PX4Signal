@@ -47,3 +47,8 @@ msbuild PX4Signal.vcxproj /p:Configuration=Release-static /p:Platform=x64
 
 - `include/TVTestPlugin.h`: TVTest のプラグインヘッダーです。再配布・改変は自由とされています。
 - `include/px4_signal_stats.h`: BonDriver_PX4 の `PX4GetSignalStats` 関数と構造体の定義です。BonDriver_PX4 側の定義と同じ内容に保ってください。
+
+## ライセンス
+
+[MIT License](LICENSE) です。
+ただし `include/TVTestPlugin.h` は TVTest のプラグインヘッダーで、ファイル冒頭に記載された条件 (再配布・改変は自由) に従います。
